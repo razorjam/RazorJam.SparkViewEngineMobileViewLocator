@@ -2,5 +2,4 @@
 bin
 obj
 
-# mstest test results
-TestResults
+/Project/src/CurlyWeb.SparkViewLocator/packages/**
