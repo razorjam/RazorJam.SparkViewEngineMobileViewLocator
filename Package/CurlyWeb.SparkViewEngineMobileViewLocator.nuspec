@@ -9,8 +9,8 @@
     <projectUrl>https://github.com/jamiehinton/CurlyWeb.SparkViewEngineMobileViewLocator</projectUrl>
     <iconUrl>http://www.curlyweb.co.uk/graphics/icons/favicons/favicon.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Package description</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <description>A nuget package to add searching for additional locations for mobile views.</description>
+    <releaseNotes>This is the first release so nothing new to note here :)</releaseNotes>
     <copyright>Copyright 2012</copyright>
     <tags>spark mobile view</tags>
     <dependencies>
