@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>CurlyWeb.SparkViewEngineMobileViewLocator</id>
+    <version>1.0.0.0</version>
+    <authors>Curly Web</authors>
+    <owners>Curly Web</owners>
+    <licenseUrl>http://www.curlyweb.co.uk/terms-and-conditions</licenseUrl>
+    <projectUrl>https://github.com/jamiehinton/CurlyWeb.SparkViewEngineMobileViewLocator</projectUrl>
+    <iconUrl>http://www.curlyweb.co.uk/graphics/icons/favicons/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package description</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <tags>spark mobile view</tags>
+    <dependencies>
+      <dependency id="spark.web.mvc3" />
+    </dependencies>
+  </metadata>
+</package>
