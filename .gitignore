@@ -2,4 +2,6 @@
 bin
 obj
 
-/Project/src/CurlyWeb.SparkViewLocator/packages/**
+packages
+*.user
+*.ncrunchsolution
