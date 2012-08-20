@@ -5,6 +5,7 @@ When we first implemented this, we found limited useful documentation so we thou
 
 ## Getting Started ##
 Simply add the package with nuget: 
+
 	Install-Package CurlyWeb.SparkViewEngineMobileViewLocator
 
 As this package is dependand on the spark.web.mvc3 package, it will add a web activator file in your App_Start folder. If this is where you want to configure Spark, great, go ahead and add the required configuration there. If not, do it where you feel it is right in your application.
@@ -50,29 +51,29 @@ Example:
 	{
     	private readonly IMobileCookieHelper mobileCookieHelper;
 
-    public MobileModeController( IMobileCookieHelper mobileCookieHelper )
-    {
-      this.mobileCookieHelper = mobileCookieHelper;
-    }
+	    public MobileModeController( IMobileCookieHelper mobileCookieHelper )
+	    {
+	      this.mobileCookieHelper = mobileCookieHelper;
+	    }
 
-    public RedirectResult Desktop()
-    {
-      mobileCookieHelper.ForceDesktopSite();
-      return Redirect( RedirectTo() );
-    }
+	    public RedirectResult Desktop()
+	    {
+	      mobileCookieHelper.ForceDesktopSite();
+	      return Redirect( RedirectTo() );
+	    }
 
-    private string RedirectTo()
-    {
-      var redirectTo = HttpContext.Request.UrlReferrer == null ? "~/" : HttpContext.Request.UrlReferrer.LocalPath;
-      return redirectTo;
-    }
+	    private string RedirectTo()
+	    {
+	      var redirectTo = HttpContext.Request.UrlReferrer == null ? "~/" : HttpContext.Request.UrlReferrer.LocalPath;
+	      return redirectTo;
+	    }
 
-    public RedirectResult Mobile()
-    {
-      mobileCookieHelper.ForceViewMobileSite();
-      return Redirect( RedirectTo() );
-    }
-  }
+	    public RedirectResult Mobile()
+	    {
+	      mobileCookieHelper.ForceViewMobileSite();
+	      return Redirect( RedirectTo() );
+	    }
+	}
 
 ### Extending ###
 If you want it to recognise a few more mobile devices, add the package: http://nuget.org/packages/51Degrees.mobi
