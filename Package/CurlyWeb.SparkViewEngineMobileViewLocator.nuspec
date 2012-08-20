@@ -2,17 +2,17 @@
 <package >
   <metadata>
     <id>CurlyWeb.SparkViewEngineMobileViewLocator</id>
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
     <authors>Curly Web</authors>
     <owners>Curly Web</owners>
     <licenseUrl>http://www.curlyweb.co.uk/terms-and-conditions</licenseUrl>
     <projectUrl>https://github.com/jamiehinton/CurlyWeb.SparkViewEngineMobileViewLocator</projectUrl>
-    <iconUrl>http://www.curlyweb.co.uk/graphics/icons/favicons/favicon.ico</iconUrl>
+    <iconUrl>http://www.curlyweb.co.uk/graphics/icons/favicons/cw-logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>A nuget package to add searching for additional locations for mobile views.</description>
+    <description>A nuget package to add searching for additional locations for mobile views with the spark view engine.</description>
     <releaseNotes>This is the first release so nothing new to note here :)</releaseNotes>
     <copyright>Copyright 2012</copyright>
-    <tags>spark mobile view</tags>
+    <tags>spark mobile view engine location descriptor filter</tags>
     <dependencies>
       <dependency id="spark.web.mvc3" />
     </dependencies>
