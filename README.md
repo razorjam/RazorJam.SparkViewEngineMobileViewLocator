@@ -1,4 +1,4 @@
-# CurlyWeb.SparkViewEngineMobileViewLocator #
+# RazorJam.SparkViewEngineMobileViewLocator #
 A nuget package to add searching for additional locations for mobile views with the spark view engine.
 
 When we first implemented this, we found limited useful documentation so we thought it would be a good idea to share our findings with the world, so we have :)
@@ -6,7 +6,7 @@ When we first implemented this, we found limited useful documentation so we thou
 ## Getting Started ##
 Simply add the package with nuget: 
 
-	Install-Package CurlyWeb.SparkViewEngineMobileViewLocator
+	Install-Package RazorJam.SparkViewEngineMobileViewLocator
 
 As this package is dependand on the spark.web.mvc3 package, it will add a web activator file in your App_Start folder. If this is where you want to configure Spark, great, go ahead and add the required configuration there. If not, do it where you feel it is right in your application.
 
@@ -82,4 +82,4 @@ If you want it to recognise a few more mobile devices, add the package: http://n
 
 
 ### Credits ###
-Thanks to Curly Web (www.curlyweb.co.uk) for letting this be open source :)
+Thanks to Razor Jam (https://razorjam.co.uk).
