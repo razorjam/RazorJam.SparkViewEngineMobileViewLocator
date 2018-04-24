@@ -82,4 +82,4 @@ If you want it to recognise a few more mobile devices, add the package: http://n
 
 
 ### Credits ###
-Thanks to Razor Jam (https://razorjam.co.uk).
+Thanks to Razor (https://www.razor.co.uk).
